@@ -13,12 +13,13 @@
         android:textSize="20sp"
         android:layout_marginTop="12dp"
         android:layout_marginRight="10dp"
-        android:text="Search" />
+        android:text="Search   " />
 
     <EditText 
         android:layout_toRightOf="@+id/main_description_label"
         android:id="@+id/main_description"
         android:hint="description"
+        android:singleLine="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 	
@@ -39,6 +40,7 @@
         android:layout_toRightOf="@+id/main_location_label"
         android:layout_below="@+id/main_description"
         android:id="@+id/main_location"
+        android:singleLine="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

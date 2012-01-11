@@ -15,19 +15,16 @@
             android:name=".GithubJobsDroidActivity" >
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:label="@string/app_name"
-            android:name=".JobList"
-            android:theme="@android:style/Theme.NoTitleBar" >
+            android:name=".JobList" >
         </activity>
         <activity
             android:label="@string/app_name"
-            android:name=".JobDescription"
-            android:theme="@android:style/Theme.NoTitleBar" >
+            android:name=".JobDescription" >
         </activity>
     </application>
 
